@@ -1,0 +1,34 @@
+{
+  "name": "log-parser-improve",
+  "version": "0.1.0",
+  "description": "Used to convert log file to proper JSON format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --config ./jestconfig.json",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Improve/log-parser-improve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/X-Improve/log-parser-improve.git/issues"
+  },
+  "homepage": "https://github.com/X-Improve/log-parser-improve.git#reademe",
+  "keywords": [
+    "log",
+    "parser"
+  ],
+  "author": "Salah Saleh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
